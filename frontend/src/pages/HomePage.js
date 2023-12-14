@@ -55,7 +55,7 @@ const HomePage = () => {
         borderWidth="1px"
       >
         <Text fontSize="4xl" fontFamily="Work sans" color="black">
-          Scholar Chat
+          Research Chat
         </Text>
       </Box>
 

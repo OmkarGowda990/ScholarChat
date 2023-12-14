@@ -1,5 +1,5 @@
-# Scholar-Chat
-## Deployed at https://scholarchat.onrender.com/
+# Research-Chat
+## Deployed at https://researchchat.onrender.com/
 
 ## Setup
 ```

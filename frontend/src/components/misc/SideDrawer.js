@@ -104,7 +104,7 @@ const SideDrawer = () => {
                         <Text d={{base:'none',md:'flex'}} px={'4'}>Search User</Text>
                     </Button>
                 </Tooltip>
-                <Text fontSize={'2xl'} fontFamily={'Work sans'}>Scholar Chat</Text>
+                <Text fontSize={'2xl'} fontFamily={'Work sans'}>Research Chat</Text>
                 <div>
                     <Menu>
                         <MenuButton p={1}>

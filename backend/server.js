@@ -37,7 +37,7 @@ if (process.env.NODE_ENV === "production") { // This code runs only if environme
     app.use(express.static(path.join(__dirname1, "/frontend/build"))); // This runs frontend and backend on the same port. 
 } else {
     app.get("/", (req, res) => {
-        res.send("API is running.."); // Test message from endpoint blank endpoint (www.scholarchat.org/)
+        res.send("API is running.."); // Test message from endpoint blank endpoint (www.researchchat.org/)
     });
 }
 
@@ -64,7 +64,7 @@ passport.use(
             state: true,
             clientID: process.env.CLIENT_ID,
             clientSecret: process.env.CLIENT_SECRET,
-            callbackURL: "https://scholarchat.onrender.com/auth/orcid/callback",
+            callbackURL: "https://researchchat.onrender.com/auth/orcid/callback",
         },
         function (accessToken, refreshToken, params, profile, done) {
             profile = { orcid: params.orcid, name: params.name };
