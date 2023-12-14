@@ -64,7 +64,7 @@ passport.use(
             state: true,
             clientID: process.env.CLIENT_ID,
             clientSecret: process.env.CLIENT_SECRET,
-            callbackURL: "https://scholar-chat-orcid.herokuapp.com/auth/orcid/callback",
+            callbackURL: "https://scholarchat.onrender.com/auth/orcid/callback",
         },
         function (accessToken, refreshToken, params, profile, done) {
             profile = { orcid: params.orcid, name: params.name };

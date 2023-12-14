@@ -1,5 +1,5 @@
 # Scholar-Chat
-## Deployed at https://scholar-chat-orcid.herokuapp.com/
+## Deployed at https://scholarchat.onrender.com/
 
 ## Setup
 ```
